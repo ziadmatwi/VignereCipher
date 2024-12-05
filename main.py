@@ -3,7 +3,7 @@ import functions
 choice:int = 1
 
 
-while choice != 0:
+'''while choice != 0:
     choice = functions.inputfunction()
     if choice == 0 :
         print("kilepes")
@@ -13,5 +13,8 @@ while choice != 0:
     elif choice == 2 :
         print("Olvasás út")
     else:
-        print("Szövegtörés út")
+        print("Szövegtörés út")'''
+
+szoveg:str=functions.inputtext()
+print(szoveg)
 

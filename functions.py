@@ -4,11 +4,11 @@ def inputfunction():
     return choice
 
 def inputtext():
-    inputtext = input("Kérem adja meg az alapszöveget: ")
-    return inputtext
+    plaintext = input("Kérem adja meg az alapszöveget: ").upper().replace(" ", "")
+    return plaintext
 
 def inputkey():
-    inputkey = input("Kérem adja meg a kulcsot: ")
+    inputkey = input("Kérem adja meg a kulcsot: ").upper
 
 def encoding():
     plaintext = inputtext()
