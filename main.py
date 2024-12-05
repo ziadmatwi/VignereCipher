@@ -6,11 +6,12 @@ choice:int = 1
 while choice != 0:
     choice = functions.inputfunction()
     if choice == 0 :
-        print("asd")
+        print("kilepes")
     elif choice == 1 :
-        print("asd")
+        print("Kódolás út")
+        functions.encoding()
     elif choice == 2 :
-        print("asd")
+        print("Olvasás út")
     else:
-        print("asd")
+        print("Szövegtörés út")
 
